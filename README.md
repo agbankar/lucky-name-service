@@ -4,7 +4,7 @@ This service will check if the name selected is lucky based on the name chosen b
 ### System Requirement
 - service requires java 9 and above 
  
-### Pull and the the jar from github
+### Pull and run the jar from github
 - Step 01: pull the code by git clone https://github.com/agbankar/lucky-name-service.git
 - Step 01: Navigate to target directory ./lucky-name-service/target
 - Step 02: Open command prompt and Run below 
