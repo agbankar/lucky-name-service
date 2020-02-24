@@ -29,7 +29,7 @@ public class LuckyNameController {
     private static final Logger logger = LogManager.getLogger( LoggingAspect.class);
     @GetMapping("/checkLuck")
 
-    public ResponseEntity<LuckyResponse> checkluckyName ( @RequestParam
+    public ResponseEntity<LuckyResponse> checkLuckyName ( @RequestParam
                                                                   String name,
                                                           @RequestParam String dob ) throws ParseException {
         logger.debug ( "Processing request for Name :"+ name +"DOB : "+dob);
