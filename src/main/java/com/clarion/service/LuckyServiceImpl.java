@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import javax.validation.ConstraintViolationException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
@@ -171,6 +172,7 @@ public class LuckyServiceImpl implements LuckyService {
     }
 
     private LuckyRequest createLuckyRequest ( final String name, final String dob ) {
+
         return new LuckyRequest ( name.toUpperCase (), Utils.getFormattedDob ( dob ) );
     }
 }

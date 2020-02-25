@@ -21,7 +21,7 @@ public class Utils {
     }
 
     public static int getdobAsNumber ( LocalDate dateofBirth ) {
-        logger.info ( "Converting daet to Number "+dateofBirth ) ;
+        logger.info ( "Converting date to Number "+dateofBirth ) ;
 
         String builder = String.valueOf ( dateofBirth.getDayOfMonth () ) +
                 dateofBirth.getMonthValue () +
