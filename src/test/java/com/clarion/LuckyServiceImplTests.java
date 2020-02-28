@@ -28,15 +28,16 @@ public class LuckyServiceImplTests {
     @Mock
     Map<Character, Integer> vowelsMap = new HashMap<> ();
     @Rule
+    
     public ExpectedException expectedEx = ExpectedException.none();
     @Test
     public void testService () {
-        initMocks ();
+       this. initMocks ();
         Assert.assertNotNull ( service.checkLuckyName ( "ASHISH", "01/12/2019" ) );
+        final String s1= "";
 
 
     }
-
     private void initMocks () {
         when ( charValuesMap.get ( 'A' ) ).thenReturn ( 1 );
         when ( charValuesMap.get ( 'B' ) ).thenReturn ( 2 );
