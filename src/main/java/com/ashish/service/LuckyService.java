@@ -1,6 +1,6 @@
-package com.clarion.service;
+package com.ashish.service;
 
-import com.clarion.model.LuckyResponse;
+import com.ashish.model.LuckyResponse;
 
 import java.text.ParseException;
 

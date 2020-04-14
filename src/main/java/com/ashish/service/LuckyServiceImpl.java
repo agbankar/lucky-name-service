@@ -1,15 +1,14 @@
-package com.clarion.service;
+package com.ashish.service;
 
-import com.clarion.model.LuckyRequest;
-import com.clarion.model.LuckyResponse;
-import com.clarion.util.Utils;
+import com.ashish.model.LuckyRequest;
+import com.ashish.model.LuckyResponse;
+import com.ashish.util.Utils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import javax.validation.ConstraintViolationException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;

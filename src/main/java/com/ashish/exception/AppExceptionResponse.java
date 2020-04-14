@@ -1,4 +1,4 @@
-package com.clarion.exception;
+package com.ashish.exception;
 
 import java.io.Serializable;
 import java.util.List;

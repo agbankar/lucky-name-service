@@ -1,9 +1,9 @@
-package com.clarion.controller;
+package com.ashish.controller;
 
-import com.clarion.aspect.LoggingAspect;
-import com.clarion.model.LuckyResponse;
-import com.clarion.service.LuckyService;
-import com.clarion.util.Utils;
+import com.ashish.aspect.LoggingAspect;
+import com.ashish.model.LuckyResponse;
+import com.ashish.service.LuckyService;
+import com.ashish.util.Utils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.clarion.model;
+package com.ashish.model;
 
 import java.io.Serializable;
 

@@ -1,7 +1,7 @@
-package com.clarion;
+package com.ashish;
 
 
-import com.clarion.service.LuckyServiceImpl;
+import com.ashish.service.LuckyServiceImpl;
 
 import org.junit.Assert;
 import org.junit.Rule;

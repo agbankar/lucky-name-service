@@ -1,4 +1,4 @@
-package com.clarion.exception;
+package com.ashish.exception;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
