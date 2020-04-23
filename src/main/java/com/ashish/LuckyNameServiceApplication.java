@@ -13,5 +13,5 @@ public class LuckyNameServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LuckyNameServiceApplication.class, args);
 	}
-
+//comment
 }
