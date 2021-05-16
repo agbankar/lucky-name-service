@@ -15,10 +15,8 @@
     <description>Lucky name service</description>
 
     <properties>
-        <java.version>1.9</java.version>
+        <java.version>1.8</java.version>
     </properties>
-    test
-    -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
